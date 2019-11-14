@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <item
+      android:id="@+id/navigation_dish"
+      android:icon="@drawable/dish"
+      android:title="@string/title_dish" />
+
+  <item
+      android:id="@+id/navigation_combo"
+      android:icon="@drawable/combo"
+      android:title="@string/title_combo" />
+
+  <item
+      android:id="@+id/navigation_store"
+      android:icon="@drawable/store"
+      android:title="@string/title_store" />
+
+  <item
+      android:id="@+id/navigation_kitchen"
+      android:icon="@drawable/kitchen"
+      android:title="@string/title_kitchen" />
+</menu>

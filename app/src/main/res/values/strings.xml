@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_dish">Món ăn</string>
+    <string name="title_combo">Bữa ăn</string>
+    <string name="title_store">Cửa hàng</string>
+    <string name="title_kitchen">Bếp</string>
+</resources>

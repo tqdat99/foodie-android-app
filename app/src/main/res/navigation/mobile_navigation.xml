@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_dish">
+
+    <fragment
+        android:id="@+id/navigation_dish"
+        android:name="com.example.foodie.ui.dish.DishFragment"
+        android:label="@string/title_dish"
+        tools:layout="@layout/fragment_dish" />
+
+    <fragment
+        android:id="@+id/navigation_combo"
+        android:name="com.example.foodie.ui.combo.ComboFragment"
+        android:label="@string/title_combo"
+        tools:layout="@layout/fragment_combo" />
+
+    <fragment
+        android:id="@+id/navigation_store"
+        android:name="com.example.foodie.ui.store.StoreFragment"
+        android:label="@string/title_store"
+        tools:layout="@layout/fragment_store" />
+
+    <fragment
+        android:id="@+id/navigation_kitchen"
+        android:name="com.example.foodie.ui.kitchen.KitchenFragment"
+        android:label="@string/title_kitchen"
+        tools:layout="@layout/fragment_kitchen" />
+
+</navigation>
