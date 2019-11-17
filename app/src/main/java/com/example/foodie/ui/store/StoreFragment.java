@@ -12,7 +12,7 @@ import androidx.lifecycle.ViewModelProviders;
 import com.example.foodie.R;
 
 public class StoreFragment extends Fragment {
-
+//test
     private StoreViewModel storeViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
